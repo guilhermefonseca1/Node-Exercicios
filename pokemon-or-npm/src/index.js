@@ -1,5 +1,5 @@
-const readline = require('readline-sync');
+const askname = require('./askName');
 
-const name = readline.question('Digite um nome:');
+const name =askname();
 
 console.log(`name: ${name}`)

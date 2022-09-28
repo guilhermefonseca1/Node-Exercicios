@@ -1,12 +1,12 @@
 const askname = require('./askName');
 const getPackageNpm = require('./npmModule')
 
-// const name =askname();
 
 // console.log(`name: ${name}`)
 
 async function main() {
-    const response = await getPackageNpm();
+    const name = askname();
+    const response = await getPackageNpm(name);
     console.log(response);
 }
 

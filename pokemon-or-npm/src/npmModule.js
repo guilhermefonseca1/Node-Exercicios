@@ -1,6 +1,10 @@
 const fetch = require('node-fetch');
 
-const url = 'https://pokeapi.co/api/v2/'
-const response = fetch(url)
 
-console.log(response);
+const getPackageNpm = async () => {
+    const url = 'https://pokeapi.co/api/v2/'
+    const response = await fetch(url)
+    return response;
+}
+
+module.exports = getPackageNpm;

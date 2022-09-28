@@ -14,6 +14,7 @@
   "author": "Guilherme Soares <guilherme.limasoares@hotmail.com>",
   "license": "ISC",
   "dependencies": {
+    "node-fetch": "2.6",
     "readline-sync": "1.4"
   }
 }

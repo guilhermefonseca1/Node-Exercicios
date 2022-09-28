@@ -12,5 +12,8 @@
     "npm"
   ],
   "author": "Guilherme Soares <guilherme.limasoares@hotmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "1.4"
+  }
 }

@@ -7,5 +7,4 @@ const getPackageNpm = async (name) => {
     const data = response.json();
     return data;
 }
-
 module.exports = getPackageNpm;
